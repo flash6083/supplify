@@ -18,6 +18,7 @@
 html{
   scroll-behavior: smooth;
   cursor: url('https://img.icons8.com/plumpy/24/000000/cursor.svg'),auto;
+  overflow-x: hidden;
 }
 body{
   overflow-x: hidden;
@@ -25,6 +26,7 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
+  animation: transitionIn 0.75s ease-in-out;
   /* font-family: 'Space Grotesk', sans-serif; */
 }
 a{
@@ -552,6 +554,18 @@ main {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+/* SMOOTH PAGE LOAD */
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
 
 /* TABLET SCREEN */
