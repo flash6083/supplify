@@ -1,0 +1,187 @@
+
+/* NAVBAR */
+.fa-truck{
+  font-size: 2rem;
+}
+.navbar{
+  padding: 0.35rem 2rem 0.35rem 3rem;
+}
+
+/* LANDING */
+.landing{
+  flex-direction: column;
+}
+.landing-text{
+  text-align: center;
+}
+.landing-text h1{
+  margin-top: 0.2rem;
+  line-height: 2.3rem;
+}
+.landing-image{
+  min-height: 50vh;
+}
+
+/* CARDS */
+
+.card{
+  font-size: 0.5rem;
+}
+.ca-1{
+  width: 40%;
+  top: 2rem;
+  left: 2rem;
+}
+.ca-2{
+  height: 35%;
+  left: 7rem;
+  width: 45%;
+  top: 14rem;
+}
+.ca-4, .ca-5{
+  display: none;
+}
+
+/* HOW IT WORKS */
+.how-it-works{
+  height: 100vh;
+}
+.work-content{
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.how-it-works h2,.how-it-works > p{
+  margin-right: 2rem;
+}
+
+
+/* FEATURES */
+
+.item-pic{
+  width: 15rem;
+}
+
+/* DASHBOARD */
+.dashboard{
+  flex-direction: column;
+}
+.dashboard-text{
+  text-align: center;
+}
+.dashboard-text h2{
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.dashboard-text p{
+  line-height: 2rem;
+}
+
+/* MARKET */
+.market{
+  flex-direction: column;
+}
+.market-text{
+  text-align: center;
+}
+.market-text h2{
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.market-text p{
+  line-height: 2rem;
+}
+
+/* SHOP */
+.shop{
+  flex-direction: column;
+}
+.shop-text{
+  text-align: center;
+}
+.shop-text h2{
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.shop-text p{
+  line-height: 2rem;
+}
+
+/* TRANSPORT */
+.transport{
+  flex-direction: column;
+}
+.transport-text{
+  text-align: center;
+}
+.transport-text h2{
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.transport-text p{
+  line-height: 2rem;
+}
+
+/* WEATHER */
+.weather{
+  flex-direction: column;
+}
+.weather-text{
+  text-align: center;
+}
+.weather-text h2{
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.weather-text p{
+  line-height: 2rem;
+}
+
+
+/* FOOTER */
+
+@media (max-width:991px){
+  .site-footer [class^=col-]{
+    margin-bottom:30px
+  }
+  }
+@media (max-width:767px){
+  .site-footer{
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+  }
+}
+@media (max-width:767px){
+  .social-icons li.title{
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* FOR EXTREMELY SMALL SCREEN LIKE IPHONE 5/5S */
+
+@media only screen and (max-width: 370px){
+
+  /* LANDING IMAGE */
+  .ca-1{
+    width: 60%;
+    height: 50%;
+    top: 1rem;
+    left: 1rem;
+  }
+  .ca-2{
+    display: none;
+  }
+  .ca-3{
+    top: 9rem;
+    width: 60%;
+  }
+
+
+  /* FEATURES */
+  #features{
+    margin-top: 60vh;
+  }
+}
