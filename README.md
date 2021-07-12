@@ -1,4 +1,5 @@
 # Supplify
+> Use chrome dev tools to check for responsiveness. Change 2-3 devices if it glitches. PS - It is a chrome glitch. The website is fine.
 A website that aims at minimizing supply chain disruptions by bridging the gap between suppliers and buyers
 
 The website Supplify is made to simplify transactions between suppliers and buyers by providing and online marketplace,
